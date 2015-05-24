@@ -2225,3 +2225,7 @@ System.Web.HttpCompileException (0x80004005): d:\studia\Praca inż\Strona RESET\
 2015-05-24 15:26:30,105 [232] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 233] Initializing Examine and binding to business logic events
 2015-05-24 15:26:30,419 [232] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 233] Adding examine event handlers for index providers: 3
 2015-05-24 15:26:31,357 [232] INFO  Umbraco.Web.UmbracoModule - [Thread 211] Setting OriginalRequestUrl: localhost:8771/umbraco
+2015-05-24 15:55:14,750 [232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 224] Down, tasks completed.
+2015-05-24 15:55:14,750 [232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 224] Down, tasks completed.
+2015-05-24 15:55:14,810 [232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 224] Down, tasks completed.
+2015-05-24 15:55:14,821 [232] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 224] Application shutdown. Reason: ConfigurationChange

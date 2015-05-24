@@ -2229,3 +2229,45 @@ System.Web.HttpCompileException (0x80004005): d:\studia\Praca inż\Strona RESET\
 2015-05-24 15:55:14,750 [232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 224] Down, tasks completed.
 2015-05-24 15:55:14,810 [232] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 224] Down, tasks completed.
 2015-05-24 15:55:14,821 [232] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 224] Application shutdown. Reason: ConfigurationChange
+2015-05-24 16:10:15,990 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-05-24 16:10:16,019 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 22ms)
+2015-05-24 16:10:16,041 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-05-24 16:10:17,012 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 969ms)
+2015-05-24 16:10:17,635 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-05-24 16:10:17,645 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 10ms)
+2015-05-24 16:10:17,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-05-24 16:10:17,681 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 34ms)
+2015-05-24 16:10:17,727 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-05-24 16:10:17,739 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 11ms)
+2015-05-24 16:10:17,740 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-05-24 16:10:17,795 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 54ms)
+2015-05-24 16:10:18,075 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-05-24 16:10:18,098 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 22ms)
+2015-05-24 16:10:18,098 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-05-24 16:10:18,114 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2015-05-24 16:10:22,404 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-05-24 16:10:23,629 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-05-24 16:10:27,582 [7] INFO  Umbraco.Web.UmbracoModule - [Thread 8] Setting OriginalRequestUrl: localhost:8771/umbraco
+2015-05-24 16:10:28,055 [7] INFO  umbraco.content - [Thread 8] Load Xml from file...
+2015-05-24 16:10:28,067 [7] INFO  umbraco.content - [Thread 8] Successfully loaded Xml from file.
+2015-05-24 16:10:28,561 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-05-24 16:10:28,574 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 13ms)
+2015-05-24 16:11:40,141 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+2015-05-24 16:11:40,185 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 44 (took 43ms)
+2015-05-24 16:11:46,568 [7] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 8] Login attempt succeeded for username katarzynajasiewicz.93@gmail.com from IP address ::1
+2015-05-24 16:11:46,727 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 8] User Id: 0 logged in
+2015-05-24 16:11:47,240 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-24 16:11:47,282 [7] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 38ms)
+2015-05-24 16:11:47,621 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplication
+2015-05-24 16:11:47,712 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 90ms)
+2015-05-24 16:11:48,329 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ITree
+2015-05-24 16:11:48,481 [7] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 35 (took 152ms)
+2015-05-24 16:11:48,486 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.Trees.TreeController
+2015-05-24 16:11:48,486 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Trees.TreeController, found 4 (took 0ms)
+2015-05-24 16:11:48,501 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2015-05-24 16:11:48,529 [7] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 19 (took 27ms)
+2015-05-24 16:13:10,891 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2015-05-24 16:13:10,982 [7] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 20 (took 90ms)
+2015-05-24 16:14:47,984 [7] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 17] Login attempt failed for username admin@gmail.com from IP address ::1, the user does not exist
+2015-05-24 16:14:54,691 [7] INFO  Umbraco.Core.Security.UmbracoMembershipProviderBase - [Thread 23] Login attempt succeeded for username admin from IP address ::1
+2015-05-24 16:14:54,707 [7] INFO  Umbraco.Web.Security.WebSecurity - [Thread 23] User Id: 1 logged in

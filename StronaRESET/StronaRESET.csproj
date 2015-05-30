@@ -343,6 +343,24 @@
     <Content Include="obj\Debug\StronaRESET.pdb" />
     <Content Include="packages.config" />
     <Content Include="scripts\fanoe.js" />
+    <Content Include="Static\MakietaRWD\Aktualnosci.html" />
+    <Content Include="Static\MakietaRWD\Aktualnosci_szczegoly_info_sukces.html" />
+    <Content Include="Static\MakietaRWD\Aktualnosci_szczegoly_wyklad_konf.html" />
+    <Content Include="Static\MakietaRWD\Artykuly.html" />
+    <Content Include="Static\MakietaRWD\Artykuly_Szczegoly.html" />
+    <Content Include="Static\MakietaRWD\css\bootstrap-theme.css" />
+    <Content Include="Static\MakietaRWD\css\bootstrap-theme.min.css" />
+    <Content Include="Static\MakietaRWD\css\bootstrap.css" />
+    <Content Include="Static\MakietaRWD\css\bootstrap.min.css" />
+    <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Static\MakietaRWD\Home.html" />
+    <Content Include="Static\MakietaRWD\js\bootstrap.js" />
+    <Content Include="Static\MakietaRWD\js\bootstrap.min.js" />
+    <Content Include="Static\MakietaRWD\js\jquery-2.1.3.js" />
+    <Content Include="Static\MakietaRWD\js\npm.js" />
+    <Content Include="Static\MakietaRWD\Projekty.html" />
+    <Content Include="Static\MakietaRWD\Projekty_Szczegoly.html" />
+    <Content Include="Static\MakietaRWD\Wydarzenia_Szczegoly.html" />
     <Content Include="umbraco\Actions\delete.aspx" />
     <Content Include="umbraco\Actions\editContent.aspx" />
     <Content Include="umbraco\Actions\preview.aspx" />
@@ -3070,6 +3088,12 @@
     <Content Include="umbraco\Xslt\Web.config" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Razor\LICENSE" />
     <Content Include="umbraco_client\CodeMirror\Js\Mode\Sieve\LICENSE" />
+    <Content Include="Static\MakietaRWD\css\bootstrap-theme.css.map" />
+    <Content Include="Static\MakietaRWD\css\bootstrap.css.map" />
+    <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

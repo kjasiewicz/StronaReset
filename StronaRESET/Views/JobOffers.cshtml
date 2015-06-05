@@ -1,0 +1,129 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+<section id="main-content">
+    <div class="row" id="main-row" style="display: -ms-flex; display: -webkit-flex; display: flex;">
+        <div class="col-sm-3 col-xs-12" id="side-menu" style="background-color: #CCC; -ms-flex: 1 ;flex:1; "></div>
+        <div class="col-md-9 col-sm-8">
+            <div class="row">
+
+                <div class="joboffer">
+                    <div class="col-xs-12">
+                        <h2>
+                            Oferta1
+                        </h2>
+                        <hr />
+                    </div>
+                    <div class="col-xs-10">
+                        <img src="~/media/1052/logo_gray.png" class="img-responsive" style="margin:auto" />
+                    </div>
+                    <div class="col-xs-2 pull-right wrap">
+                        <h5>
+                            czytaj więcej
+                        </h5>
+                    </div>
+                    <hr class="col-xs-12" />
+                </div>
+                <div class="joboffer">
+                    <div class="col-xs-12">
+                        <h2>
+                            Oferta1
+                        </h2>
+                        <hr />
+                    </div>
+                    <div class="col-xs-10">
+                        <img src="~/media/1052/logo_gray.png" class="img-responsive" style="margin:auto" />
+                    </div>
+                    <div class="col-xs-2 pull-right wrap">
+                        <h5>
+                            czytaj więcej
+                        </h5>
+                    </div>
+                    <hr class="col-xs-12" />
+                </div>
+                <div class="joboffer">
+                    <div class="col-xs-12">
+                        <h2>
+                            Oferta1
+                        </h2>
+                        <hr />
+                    </div>
+                    <div class="col-xs-10">
+                        <img src="~/media/1052/logo_gray.png" class="img-responsive" style="margin:auto" />
+                    </div>
+                    <div class="col-xs-2 pull-right wrap">
+                        <h5>
+                            czytaj więcej
+                        </h5>
+                    </div>
+                    <hr class="col-xs-12" />
+                </div>
+                <div class="joboffer">
+                    <div class="col-xs-12">
+                        <h2>
+                            Oferta1
+                        </h2>
+                        <hr />
+                    </div>
+                    <div class="col-xs-10">
+                        <img src="~/media/1052/logo_gray.png" class="img-responsive" style="margin:auto" />
+                    </div>
+                    <div class="col-xs-2 pull-right wrap">
+                        <h5>
+                            czytaj więcej
+                        </h5>
+                    </div>
+                    <hr class="col-xs-12" />
+                </div>
+                <div class="joboffer">
+                    <div class="col-xs-12">
+                        <h2>
+                            Oferta1
+                        </h2>
+                        <hr />
+                    </div>
+                    <div class="col-xs-10">
+                        <img src="~/media/1052/logo_gray.png" class="img-responsive" style="margin:auto" />
+                    </div>
+                    <div class="col-xs-2 pull-right wrap">
+                        <h5>
+                            czytaj więcej
+                        </h5>
+                    </div>
+                    <hr class="col-xs-12" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $(window).on("resize", function () {
+                if (window.innerWidth < 768) {
+                    $("#main-row").removeAttr("style");
+                    $("#side-menu").css("height", "100px");
+                }
+                else {
+                    $("#main-row").css("display", "-ms-flex").css("display", "-webkit-flex").css("display", "flex");
+                    $("#side-menu").css("height", "auto");
+                }
+
+            }).resize();
+        });
+    </script>
+}
+@section Styles{
+    <style>
+        .wrap {
+            height: 100px;
+            display: table;
+        }
+
+            .wrap h5 {
+                display: table-cell;
+                vertical-align: middle;
+            }
+    </style>
+}

@@ -304,6 +304,10 @@
     <Content Include="bin\x86\sqlceme40.dll" />
     <Content Include="bin\x86\sqlceqp40.dll" />
     <Content Include="bin\x86\sqlcese40.dll" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -311,38 +315,37 @@
     <Content Include="css\fanoe.css" />
     <Content Include="css\rte.css" />
     <Content Include="css\style.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Icon.png" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-2.1.3.js" />
     <Content Include="js\npm.js" />
-    <Content Include="media\1012\fanoe-denmark.jpg" />
-    <Content Include="media\1013\9027510123_92a91b5cf4_b_dark.jpg" />
-    <Content Include="media\1014\9017002308_81dfd2c1d5_b_dark.jpg" />
-    <Content Include="media\1015\14257753719_2c02b94030_h.jpg" />
-    <Content Include="media\1016\14435759945_a2c58e9ed6_h.jpg" />
-    <Content Include="media\1017\14359779226_df7329d607_h_dark.jpg" />
-    <Content Include="media\1018\10818851674_e375a8751e_b.jpg" />
-    <Content Include="media\1022\9686845888_e2d216ce81_b_dark_small.jpg" />
-    <Content Include="media\1023\form-bg.png" />
-    <Content Include="media\1024\14448232381_8f994d2adc_h_dark.jpg" />
-    <Content Include="media\1027\14434411872_8e663d6de0_h.jpg" />
-    <Content Include="media\1028\14435732345_c9f5b48dfa_h_dark.jpg" />
-    <Content Include="media\1031\9026528992_d38fbc2e28_o_dark.jpg" />
-    <Content Include="media\1032\9039247947_e15a9d8850_b.jpg" />
-    <Content Include="media\1033\whole-earth-catalog.jpg" />
-    <Content Include="media\1036\1912289_753997844648209_7099291360101379579_o.jpg" />
-    <Content Include="media\1037\9015601712_72e44263e4_b.jpg" />
-    <Content Include="media\1038\screen-shot-2014-12-01-at-121327.png" />
-    <Content Include="media\1044\14441035391_7ee1d0d166_h_darken.jpg" />
-    <Content Include="media\1046\14386124825_d43f359900_h_cropped.jpg" />
-    <Content Include="media\1047\9027509991_ff12bd87e4_b_small_cropped.jpg" />
-    <Content Include="media\1048\sharingiscaring_cropped.jpg" />
-    <Content Include="media\1049\9027510123_92a91b5cf4_b_dark.jpg" />
+    <Content Include="media\1051\resetlogo.png" />
+    <Content Include="media\1051\resetlogo_big-thumb.jpg" />
+    <Content Include="media\1051\resetlogo_thumb.jpg" />
+    <Content Include="media\1052\logo_gray.png" />
+    <Content Include="media\1052\logo_gray_thumb.jpg" />
+    <Content Include="media\1053\slajdver1v2.jpg" />
+    <Content Include="media\1053\slajdver1v2_big-thumb.jpg" />
+    <Content Include="media\1053\slajdver1v2_thumb.jpg" />
     <Content Include="obj\Debug\StronaRESET.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\StronaRESET.dll" />
     <Content Include="obj\Debug\StronaRESET.pdb" />
     <Content Include="packages.config" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\bootstrap.min.js" />
     <Content Include="scripts\fanoe.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <None Include="scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="scripts\jquery-2.1.4.js" />
+    <Content Include="scripts\jquery-2.1.4.min.js" />
+    <Content Include="scripts\npm.js" />
     <Content Include="Static\MakietaRWD\Aktualnosci.html" />
     <Content Include="Static\MakietaRWD\Aktualnosci_szczegoly_info_sukces.html" />
     <Content Include="Static\MakietaRWD\Aktualnosci_szczegoly_wyklad_konf.html" />
@@ -352,6 +355,7 @@
     <Content Include="Static\MakietaRWD\css\bootstrap-theme.min.css" />
     <Content Include="Static\MakietaRWD\css\bootstrap.css" />
     <Content Include="Static\MakietaRWD\css\bootstrap.min.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Static\MakietaRWD\Home.html" />
     <Content Include="Static\MakietaRWD\js\bootstrap.js" />
@@ -2861,9 +2865,6 @@
     <Content Include="Config\404handlers.config" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap.css.map" />
-    <Content Include="Views\Home1.cshtml">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="Views\Master.cshtml">
       <SubType>Code</SubType>
     </Content>
@@ -3094,6 +3095,21 @@
     <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="scripts\jquery-2.1.4.min.map" />
+    <Content Include="Views\Articles.cshtml" />
+    <Content Include="Views\ArticlesDetails.cshtml" />
+    <Content Include="Views\Home.cshtml" />
+    <Content Include="Views\News.cshtml" />
+    <Content Include="Views\NewsDetails.cshtml" />
+    <Content Include="Views\Projects.cshtml" />
+    <Content Include="Views\ProjectsDetails.cshtml" />
+    <Content Include="Views\JobOffers.cshtml" />
+    <Content Include="Views\ContactCore.cshtml" />
+    <Content Include="Views\ContactMembers.cshtml" />
+    <Content Include="Views\Gallery.cshtml" />
+    <Content Include="Views\GalleryDetails.cshtml" />
+    <Content Include="Views\Events.cshtml" />
+    <Content Include="Views\EventsDetails.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

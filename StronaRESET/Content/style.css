@@ -1,0 +1,198 @@
+﻿.extra-li {
+    width: 10%;
+}
+
+@media (max-width:768px) {
+    #main-nav > li {
+        width: 100% !important;
+        text-align: center;
+    }
+
+        #main-nav > li > a {
+            width: 100% !important;
+            text-align: center;
+        }
+}
+
+header {
+    background-color: #333136;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gradient-search {
+    -webkit-border-radius: 12px/14px 14px 15px 15px;
+    -moz-border-radius: 12px/14px 14px 15px 15px;
+    border-radius: 12px/14px 14px 15px 15px;
+    background-color: #1e2a32;
+    -webkit-box-shadow: 1px 1px rgba(255,255,255,.1), inset 1px 1px 5px rgba(24,34,41,.4);
+    -moz-box-shadow: 1px 1px rgba(255,255,255,.1), inset 1px 1px 5px rgba(24,34,41,.4);
+    box-shadow: 1px 1px rgba(255,255,255,.1), inset 1px 1px 5px rgba(24,34,41,.4);
+    background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
+    background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
+    background-image: -o-linear-gradient(bottom, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
+    background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
+    background-image: linear-gradient(to top, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
+    border: 0;
+}
+
+.horizontal-separate {
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.6), inset 1px 1px rgba(255,255,255,.2);
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.6), inset 1px 1px rgba(255,255,255,.2);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.6), inset 1px 1px rgba(255,255,255,.2);
+    border: solid 1px #8c8c8c;
+    background-image: -webkit-linear-gradient(bottom, #883e3e, #b76464);
+    background-image: -moz-linear-gradient(bottom, #883e3e, #b76464);
+    background-image: -o-linear-gradient(bottom, #883e3e, #b76464);
+    background-image: -ms-linear-gradient(bottom, #883e3e, #b76464);
+    background-image: linear-gradient(to top, #883e3e, #b76464);
+    width: 100%;
+    height: 5px;
+}
+
+.navbar-header, .navbar-collapse {
+    background-color: #333136;
+    border: none;
+}
+
+#carousel1 {
+    background-size: cover;
+    background-image: url(../media/banner1.jpg);
+}
+
+.item-inner {
+    height: 300px;
+}
+
+.parent-element {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.element {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#carousel1-text {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+a.btn-readmore {
+    text-transform: uppercase;
+}
+
+.white {
+    color: white;
+}
+
+.btn-lg {
+    font-size: 38px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.box > .icon {
+    text-align: center;
+    position: relative;
+}
+
+    .box > .icon > .image {
+        position: relative;
+        z-index: 2;
+        margin: auto;
+        width: 88px;
+        height: 88px;
+        border: 7px solid white;
+        line-height: 88px;
+        border-radius: 50%;
+        background: #63B76C;
+        vertical-align: middle;
+    }
+
+
+        .box > .icon > .image > i {
+            font-size: 40px !important;
+            color: #fff !important;
+        }
+
+    .box > .icon:hover > .image > i {
+        color: white !important;
+    }
+
+    .box > .icon > .info {
+        margin-top: -24px;
+        background: rgba(0, 0, 0, 0.04);
+        border: 1px solid #e0e0e0;
+        padding: 15px 0 10px 0;
+    }
+
+        .box > .icon > .info > .title {
+            color: black;
+            font-size: 14px;
+            font-family: 'Segoe UI';
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .box > .icon > .info > .title-desc {
+            color: #333136;
+            line-height: 1.5em;
+            margin: 20px;
+            font-family: 'Segoe UI';
+            font-size: 14px;
+        }
+
+        .box > .icon > .info > .more a {
+            color: #222;
+            line-height: 12px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+.box > .info > .more > a {
+    color: #000;
+    padding: 6px 8px;
+    border-bottom: 4px solid black;
+}
+
+.box .space {
+    height: 30px;
+}
+
+.box-allnews > .text-allnews a {
+    color: grey;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+    .box-allnews > .text-allnews a:hover {
+        font-weight: bold;
+        text-decoration: none;
+        font-family: 'Segoe UI';
+        font-size: 14px;
+    }
+
+.job-offer {
+    background-size: cover;
+    background-image: url(../media/joboffer_photo.jpg);
+    height: 200px;
+}
+
+.gallery {
+    background-size: cover;
+    background-image: url(../media/gallery_photo.jpg);
+    height: 200px;
+}
+.parking {
+    background-size: cover;
+    background-image: url(../media/parking.jpg);
+    height: 200px;
+}

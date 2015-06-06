@@ -6,50 +6,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta tags -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="@CurrentPage.siteDescription">
     <title>@CurrentPage.Name | @CurrentPage._siteTitle</title>
 
-    <!-- Fonts -->
-    @*<link href="//fonts.googleapis.com/css?family=Merriweather:400,700,300,900" rel="stylesheet" type="text/css">
-        <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" type="text/css">*@
-
-    <!-- CSS -->
 
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="~/Content/style.css" rel="stylesheet" />
-    @*<link rel="stylesheet" type="text/css" href="/css/fanoe.css">*@
-    @*<link rel="stylesheet" type="text/css" href="/css/style.css">*@
+
     @RenderSection("Styles", false)
-    <style>
-        ul.nav.navbar-nav {
-            width: 100%;
-        }
-
-            ul.nav.navbar-nav > li {
-                width: 16%;
-                text-align: center;
-            }
-
-        .inverse-dropdown {
-            background-color: #222;
-            border-color: #080808;
-        }
-
-            .inverse-dropdown > li > a {
-                color: #999;
-            }
-
-                .inverse-dropdown > li > a:hover {
-                    /*color: #fff;*/
-                    background-color: #000;
-                }
-    </style>
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -110,28 +81,93 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-
     <div class="container-fluid">
         @RenderBody()
-        <footer class="row" style="height:200px;background-color: gainsboro">
-            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-12 " style="background-color: gray;height:inherit"></div>
-            <div class="col-md-4 col-md-offset-2 col-lg-offset-2 col-lg-4 col-sm-6 col-xs-12 " style="background-color: lightslategray;height:inherit"></div>
-            <div class="col-md-2 col-md-offset-2 col-lg-offset-2 col-lg-2 col-sm-3 col-xs-12 " style="background-color: gray;height:inherit"></div>
-        </footer>
-
-        <!-- Javascripts -->
-
-        <script src="~/scripts/jquery-2.1.4.min.js"></script>
-        @*<script src="~/scripts/fanoe.js"></script>*@
-        <script src="~/scripts/bootstrap.min.js"></script>
-        @RenderSection("Scripts", false)
-        <script>
-            $('.pull-down').each(function () {
-                $(this).css('margin-top', $(this).parent().height() - $(this).height())
-            })
-        </script>
-
     </div>
+    <div class="horizontal-separate"></div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <img src="~/media/1051/resetlogo.png" class="img-responsive" />
+            </div>
+        </div>
+        <div class="localize-icon glyphicon glyphicon-map-marker">
+        </div>
+        <div class="localize-text">
+            <p>
+                Akademia Techniczno-Humanstyczna <br />
+                w Bielsku-Białej<br />
+                ul. Willowa 2
+            </p>
+        </div>
+        <div class="mail-icon glyphicon glyphicon-envelope">
+        </div>
+        <div class="mail-text">
+            <p>
+                resetath@gmail.com
+            </p>
+        </div>
+        <div class="row">
+            <ul class="footer-menu">
+                <li>
+                    <a href="~/home">Strona główna</a>
+                </li>
+                <li>
+                    <a href="~/home">Aktualności</a>
+                </li>
+                <li>
+                    <a href="~/home">Projekty</a>
+                </li>
+                <li>
+                    <a href="~/home">Wydarzenia</a>
+                </li>
+            </ul>
+            <ul class="footer-menu">
+                <li>
+                    <a href="~/home">Oferty pracy</a>
+                </li>
+                <li>
+                    <a href="~/home">Zarząd</a>
+                </li>
+                <li>
+                    <a href="~/home">Członkowie</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </footer>
+
+    <div class="footer-menu-down">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-6 copyright-text">
+                    &copy; copyright by Kasia i Tomek
+                </div>
+                <div class="col-xs-1 pull-right socialmedia">
+                    <i class="fa fa-twitter-square"></i>
+                </div>
+                <div class="col-xs-1 pull-right socialmedia">
+                    <i class="fa fa-facebook-official"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascripts -->
+
+    <script src="~/scripts/jquery-2.1.4.min.js"></script>
+    @*<script src="~/scripts/fanoe.js"></script>*@
+    <script src="~/scripts/bootstrap.min.js"></script>
+    @RenderSection("Scripts", false)
+    <script>
+        $('.pull-down').each(function () {
+            $(this).css('margin-top', $(this).parent().height() - $(this).height())
+        })
+    </script>
+
+
 
 </body>
 </html>

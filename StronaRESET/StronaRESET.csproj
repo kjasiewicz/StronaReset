@@ -320,13 +320,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\home.css" />
     <Content Include="Content\News.css" />
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css" />
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css" />
-    <Content Include="css\fanoe.css" />
-    <Content Include="css\rte.css" />
-    <Content Include="css\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
     <Content Include="js\bootstrap.js" />
@@ -2875,8 +2868,6 @@
     <Content Include="Config\BaseRestExtensions.config" />
     <Content Include="Config\applications.config" />
     <Content Include="Config\404handlers.config" />
-    <Content Include="css\bootstrap-theme.css.map" />
-    <Content Include="css\bootstrap.css.map" />
     <Content Include="Views\Master.cshtml">
       <SubType>Code</SubType>
     </Content>

@@ -36,3 +36,8 @@ D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\UmbracoExamine.xml
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\obj\Debug\StronaRESET.dll
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\obj\Debug\StronaRESET.pdb
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\obj\Debug\StronaRESET.csprojResolveAssemblyReference.cache
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Antlr3.Runtime.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Optimization.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\WebGrease.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Antlr3.Runtime.pdb
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Optimization.xml

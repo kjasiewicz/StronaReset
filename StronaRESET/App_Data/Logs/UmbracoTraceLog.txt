@@ -225,3 +225,43 @@
 2015-06-07 22:32:51,894 [9] INFO  umbraco.content - [Thread 202] Successfully loaded Xml from file.
 2015-06-07 22:32:52,618 [9] INFO  Umbraco.Core.PluginManager - [Thread 202] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
 2015-06-07 22:32:52,634 [9] INFO  Umbraco.Core.PluginManager - [Thread 202] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 15ms)
+2015-06-07 22:54:04,112 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2015-06-07 22:54:04,129 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2015-06-07 22:54:04,148 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2015-06-07 22:54:05,025 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 37 (took 875ms)
+2015-06-07 22:54:05,471 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2015-06-07 22:54:05,485 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 14ms)
+2015-06-07 22:54:05,485 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+2015-06-07 22:54:05,495 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 16 (took 9ms)
+2015-06-07 22:54:05,540 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2015-06-07 22:54:05,550 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 4 (took 10ms)
+2015-06-07 22:54:05,550 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2015-06-07 22:54:05,557 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 35 (took 6ms)
+2015-06-07 22:54:05,642 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2015-06-07 22:54:05,649 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2015-06-07 22:54:05,649 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2015-06-07 22:54:05,653 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2015-06-07 22:54:08,290 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2015-06-07 22:54:09,393 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2015-06-07 22:54:16,390 [10] INFO  Umbraco.Web.UmbracoModule - [Thread 8] Setting OriginalRequestUrl: localhost:8771/umbraco
+2015-06-07 22:54:21,594 [10] INFO  umbraco.content - [Thread 8] Load Xml from file...
+2015-06-07 22:54:21,616 [10] INFO  umbraco.content - [Thread 8] Successfully loaded Xml from file.
+2015-06-07 22:54:21,989 [10] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2015-06-07 22:54:22,005 [10] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 23 (took 15ms)
+2015-06-07 23:05:53,182 [10] ERROR UmbracoExamine.DataServices.UmbracoLogService - [Thread 16] Provider=InternalIndexer, NodeId=-1
+System.Exception: Error indexing queue items,System.IO.FileNotFoundException: Nie można odnaleźć pliku 'C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\App_Data\TEMP\ExamineIndexes\Internal\Index\segments_4t'.
+Nazwa pliku: 'C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\App_Data\TEMP\ExamineIndexes\Internal\Index\segments_4t'
+   w Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   w Lucene.Net.Index.SegmentInfos.Read(Directory directory)
+   w Lucene.Net.Index.IndexWriter.Init(Directory d, Analyzer a, Boolean create, Boolean closeDir, IndexDeletionPolicy deletionPolicy, Boolean autoCommit, Int32 maxFieldLength, IndexingChain indexingChain, IndexCommit commit)
+   w Lucene.Net.Index.IndexWriter..ctor(Directory d, Analyzer a, Boolean create, MaxFieldLength mfl)
+   w Examine.LuceneEngine.Providers.LuceneIndexer.CreateIndexWriter() w x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:wiersz 1553
+   w UmbracoExamine.BaseUmbracoIndexer.CreateIndexWriter()
+   w Examine.LuceneEngine.Providers.LuceneIndexer.GetIndexWriter() w x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:wiersz 1572
+   w Examine.LuceneEngine.Providers.LuceneIndexer.ForceProcessQueueItems(Boolean block) w x:\Projects\Examine\Examine\Projects\Examine\LuceneEngine\Providers\LuceneIndexer.cs:wiersz 1434, IndexSet: InternalIndexSet
+2015-06-07 23:05:53,229 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 16] Down, tasks completed.
+2015-06-07 23:05:53,229 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 16] Down, tasks completed.
+2015-06-07 23:05:53,229 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.Scheduling.IBackgroundTask, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 16] Down, tasks completed.
+2015-06-07 23:05:53,245 [10] INFO  umbraco.content - [Thread 12] Save Xml to file...
+2015-06-07 23:05:53,260 [10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner`1[[Umbraco.Web.PublishedCache.XmlPublishedCache.XmlCacheFilePersister, umbraco, Version=1.0.5610.18898, Culture=neutral, PublicKeyToken=null]] - [Thread 37] Down, tasks completed.
+2015-06-07 23:05:53,370 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 28] Application shutdown. Reason: ConfigurationChange

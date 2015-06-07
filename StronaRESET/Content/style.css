@@ -129,6 +129,16 @@ footer {
     font-size: 20px;
     line-height: 30px;
 }
+.socialmedia a:hover {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+.socialmedia a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
 
 ul.nav.navbar-nav {
     width: 100%;
@@ -231,10 +241,21 @@ ul.nav.navbar-nav {
         color: grey;
         font-family: 'Segoe UI';
         font-size: 12px;
+        text-transform: uppercase;
+        opacity: 0.5;
     }
 
         .footer-menu-sm li {
             list-style-type: none;
             text-align: right;
+        }
+
+        .footer-menu-sm li a {
+            color: grey;
+            text-decoration: none;
+            font-family: 'Segoe UI';
+        }
+          .footer-menu-sm li a:hover {
+            border-bottom: 2px solid #883e3e;
         }
 }

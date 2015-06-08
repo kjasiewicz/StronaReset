@@ -41,3 +41,46 @@ D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Optimiz
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\WebGrease.dll
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Antlr3.Runtime.pdb
 D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Optimization.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\StronaRESET.dll.config
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\StronaRESET.dll
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\StronaRESET.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Antlr3.Runtime.dll
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Optimization.dll
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\WebGrease.dll
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Antlr3.Runtime.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\AutoMapper.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\businesslogic.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\ClientDependency.Core.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\ClientDependency.Core.Mvc.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\cms.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\controls.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Examine.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\HtmlAgilityPack.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\HtmlAgilityPack.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\interfaces.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Lucene.Net.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\MiniProfiler.pdb
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\MiniProfiler.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Newtonsoft.Json.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\SQLCE4Umbraco.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Net.Http.Formatting.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Helpers.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Http.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Http.WebHost.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Mvc.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Optimization.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.Razor.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.WebPages.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\umbraco.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Umbraco.Core.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\umbraco.DataLayer.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\umbraco.editorControls.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\umbraco.MacroEngines.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\umbraco.providers.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\Umbraco.Web.UI.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\UmbracoExamine.xml
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.csprojResolveAssemblyReference.cache
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.dll
+C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.pdb

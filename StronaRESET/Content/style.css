@@ -8,6 +8,10 @@ header {
     padding-bottom: 10px;
 }
 
+.searchHeader {
+    padding-right: 10px !important;
+}
+
 .gradient-search {
     -webkit-border-radius: 12px/14px 14px 15px 15px;
     -moz-border-radius: 12px/14px 14px 15px 15px;
@@ -22,6 +26,7 @@ header {
     background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
     background-image: linear-gradient(to top, rgba(0,0,0,.69) 18%, rgba(51,51,51,.69));
     border: 0;
+    color: white;
 }
 
 .horizontal-separate {

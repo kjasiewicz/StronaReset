@@ -84,3 +84,47 @@ C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\bin\UmbracoExamine.xml
 C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.csprojResolveAssemblyReference.cache
 C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.dll
 C:\Users\Kamyk\Source\Repos\StronaReset5\StronaRESET\obj\Debug\StronaRESET.pdb
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\AutoMapper.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\AutoMapper.Net4.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\businesslogic.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\ClientDependency.Core.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\ClientDependency.Core.Mvc.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\cms.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\controls.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\CookComputing.XmlRpcV2.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Examine.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\HtmlAgilityPack.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\ICSharpCode.SharpZipLib.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\ImageProcessor.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\ImageProcessor.Web.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\interfaces.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\log4net.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Lucene.Net.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Microsoft.ApplicationBlocks.Data.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Microsoft.Web.Infrastructure.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\MiniProfiler.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\MySql.Data.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Newtonsoft.Json.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\SQLCE4Umbraco.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Data.SqlServerCe.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Data.SqlServerCe.Entity.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Net.Http.Formatting.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Helpers.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Http.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Http.WebHost.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Mvc.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.Razor.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.WebPages.Deployment.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.WebPages.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\System.Web.WebPages.Razor.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\TidyNet.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Umbraco.Core.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\umbraco.DataLayer.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\umbraco.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\umbraco.editorControls.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\umbraco.MacroEngines.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\umbraco.providers.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\Umbraco.Web.UI.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\UmbracoExamine.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\UrlRewritingNet.UrlRewriter.dll
+D:\studia\Praca inż\Strona RESET\StronaReset\StronaRESET\bin\WebActivatorEx.dll

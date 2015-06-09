@@ -1,0 +1,322 @@
+﻿//colors
+$color_coral_tree_approx: #b76464;
+$black: black;
+$color_mountain_mist_approx: #999;
+$gray: grey;
+$color_lotus_approx: #883e3e;
+$color_mine_shaft_approx: #333136;
+$color_shark_approx: #1e2a32;
+$white_10: rgba(255,255,255,.1);
+$color_mirage_40_approx: rgba(24,34,41,.4);
+$black_69: rgba(0,0,0,.69);
+$color_mine_shaft_69_approx: rgba(51,51,51,.69);
+$white: white;
+$black_60: rgba(0,0,0,.6);
+$white_20: rgba(255,255,255,.2);
+$color_stack_approx: #8c8c8c;
+$color_log_cabin_approx: #222;
+$color_cod_gray_approx: #080808;
+
+//fonts
+$font_0: Segoe UI;
+
+//@extend-elements
+//original selectors
+//.localize-icon, .mail-icon
+%extend_1 {
+    font-size: 2em;
+    color: $gray;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+//original selectors
+//.localize-text, .mail-text
+%extend_2 {
+    color: $gray;
+    font-size: 10px;
+    font-family: $font_0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+header {
+    background-color: $color_mine_shaft_approx;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .searchHeader {
+        padding-right: 10px !important;
+    }
+
+    .gradient-search {
+        border-radius: 12px/14px 14px 15px 15px;
+        background-color: $color_shark_approx;
+        box-shadow: 1px 1px $white_10, inset 1px 1px 5px $color_mirage_40_approx;
+        background-image: linear-gradient(to top, $black_69 18%, $color_mine_shaft_69_approx);
+        border: 0;
+        color: $white;
+    }
+}
+
+
+.horizontal-separate {
+    background-image: linear-gradient(to top, $color_lotus_approx, $color_coral_tree_approx);
+    width: 100%;
+    height: 5px;
+}
+
+.navbar-header {
+    background-color: $color_mine_shaft_approx;
+    border: none;
+}
+
+.navbar-collapse {
+    background-color: $color_mine_shaft_approx;
+    border: none;
+}
+
+.parent-element {
+    //Instead of the line below you could use @includetransform-style($style)
+    transform-style: preserve-3d;
+}
+
+.element {
+    position: relative;
+    top: 50%;
+    //Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: translateY(-50%);
+}
+
+footer {
+    background-color: $color_mine_shaft_approx;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-menu {
+    text-align: center;
+    list-style-type: none;
+    display: table;
+    padding: 0;
+    font-size: 10px;
+    font-family: $font_0;
+    width: 100%;
+    text-transform: uppercase;
+    opacity: 0.5;
+
+    li {
+        display: table-cell;
+
+        a {
+            color: $gray;
+            text-decoration: none;
+            font-family: $font_0;
+
+            &:hover {
+                border-bottom: 2px solid $color_lotus_approx;
+            }
+        }
+    }
+}
+
+.footer-menu-down {
+    //Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 1px 1px 3px $black_60, inset 1px 1px $white_20;
+    border: solid 1px $color_stack_approx;
+    background-image: linear-gradient(to top, $color_lotus_approx, $color_coral_tree_approx);
+    height: 30px;
+    width: 100%;
+}
+
+
+.mail-icon, .localize-icon {
+    @extend %extend_1;
+}
+
+
+.mail-text, .localize-text {
+    @extend %extend_2;
+}
+
+.copyright-text {
+    color: $white;
+    font-size: 10px;
+    font-family: $font_0;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.socialmedia {
+    color: $white;
+    font-size: 20px;
+    line-height: 30px;
+
+    a {
+        color: $white;
+        font-size: 20px;
+        line-height: 30px;
+
+        &:hover {
+            color: $white;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+}
+
+.inverse-dropdown {
+    background-color: $color_mine_shaft_approx;
+    border-color: $color_cod_gray_approx;
+
+    .extra-li {
+        width: 10%;
+    }
+
+    > li {
+        > a {
+            color: $color_mountain_mist_approx;
+        }
+
+        &:hover a {
+            background-color: $color_mine_shaft_approx;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    #main-nav > li {
+        width: 100% !important;
+        text-align: center;
+
+        > a {
+            width: 100% !important;
+            text-align: center;
+        }
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .extra-li {
+        height: 40px;
+    }
+}
+
+@media(min-width:769px) {
+    .localize-icon {
+        width: auto;
+        text-align: left;
+    }
+
+    .mail-icon {
+        width: auto;
+        text-align: left;
+    }
+
+    .localize-box {
+        margin-top: 20px;
+    }
+
+    .navbar-nav > li > a {
+        &.nav-text {
+            font-family: $font_0;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        &:hover {
+            border-bottom: 5px solid $color_coral_tree_approx;
+            padding-bottom: 10px;
+        }
+    }
+
+    .inverse-dropdown > li {
+        &:hover {
+            background-color: $black !important;
+
+            a {
+                background-color: $black;
+            }
+        }
+
+        > a {
+            color: $color_mountain_mist_approx;
+        }
+    }
+
+    .localize-text p {
+        line-height: 2em/3;
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .mail-text p {
+        line-height: 1.5em;
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+
+@media(min-width: 769px) {
+    .footer-menu-sm {
+        color: $gray;
+        font-family: $font_0;
+        font-size: 12px;
+        text-transform: uppercase;
+        opacity: 0.5;
+
+        li {
+            list-style-type: none;
+            text-align: right;
+
+            a {
+                color: $gray;
+                text-decoration: none;
+                font-family: $font_0;
+
+                &:hover {
+                    border-bottom: 2px solid $color_lotus_approx;
+                }
+            }
+        }
+    }
+}
+
+ul.nav.navbar-nav {
+    width: 100%;
+    margin: 0;
+
+    > li {
+        width: 16%;
+        text-align: center;
+    }
+}
+
+.nav .open > a {
+    border-color: $color_coral_tree_approx !important;
+
+    &:hover {
+        border-color: $color_coral_tree_approx !important;
+    }
+
+    &:focus {
+        border-color: $color_coral_tree_approx !important;
+    }
+}
+
+.dropdown-menu > li > a {
+    &:hover {
+        color: $white;
+        background-color:$color_mine_shaft_approx;
+    }
+
+    &:focus {
+        color: $white;
+        background-color: $color_mine_shaft_approx;
+    }
+}

@@ -16,8 +16,8 @@
 
     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="~/Content/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Content/FontAwesome/font-awesome.min.css">
+    <link href="~/Content/main.min.css" rel="stylesheet" />
 
     @RenderSection("Styles", false)
 
@@ -166,7 +166,7 @@
                     <a href="~/core">Zarząd</a>
                 </li>
                 <li>
-                    <a href="~/members>Członkowie</a>
+                    <a href="~/members">Członkowie</a>
                 </li>
                 <li>
                     &nbsp;
@@ -184,10 +184,8 @@
                 <div class="col-xs-6 copyright-text">
                     &copy; copyright by RESET ATH
                 </div>
-                <div class="col-xs-1 pull-right socialmedia">
+                <div class="col-xs-2 pull-right socialmedia text-right">
                     <i class="fa fa-twitter-square"></i>
-                </div>
-                <div class="col-xs-1 pull-right socialmedia">
                     <a href="http://www.facebook.com/Resetath">
                         <i class=" fa fa-facebook-official">
 
@@ -202,19 +200,11 @@
     <!-- Javascripts -->
 
     <script src="~/scripts/jquery-2.1.4.min.js"></script>
-    @*<script src="~/scripts/fanoe.js"></script>*@
     <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="~/scripts/main.js"></script>
     @RenderSection("Scripts", false)
-    <script>
-        $(window).on('resize', function() {
-            $('.pull-down').each(function() {
-                $(this).hide();
-                $(this).css('margin-top', $(this).parent().height() - $(this).height());
-                $(this).show();
-            });
-        }).resize();
-        
-    </script>
+
+
 
 
 

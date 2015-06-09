@@ -207,6 +207,9 @@
     <Reference Include="UrlRewritingNet.UrlRewriter">
       <HintPath>..\packages\UmbracoCms.Core.7.2.5\lib\UrlRewritingNet.UrlRewriter.dll</HintPath>
     </Reference>
+    <Reference Include="WebActivatorEx">
+      <HintPath>..\packages\WebActivatorEx.2.0.6\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
     </Reference>
@@ -216,8 +219,28 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\FontAwesome\font-awesome.css">
+      <DependentUpon>font-awesome.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\FontAwesome\font-awesome.min.css">
+      <DependentUpon>font-awesome.css</DependentUpon>
+    </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\home.css" />
+    <Content Include="Content\JobOffers.css" />
     <Content Include="Content\News.css" />
+    <Content Include="Content\main.css">
+      <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\NewsDetails.css">
+      <DependentUpon>NewsDetails.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\NewsDetails.min.css">
+      <DependentUpon>NewsDetails.css</DependentUpon>
+    </Content>
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
     <Content Include="media\1051\resetlogo.png" />
@@ -241,9 +264,39 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\main.scss" />
+    <Content Include="Content\main.css.map">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\NewsDetails.scss" />
+    <Content Include="Content\NewsDetails.css.map">
+      <DependentUpon>NewsDetails.css</DependentUpon>
+    </Content>
+    <Content Include="Content\FontAwesome\font-awesome.scss" />
+    <Content Include="Content\FontAwesome\_animated.scss" />
+    <Content Include="Content\FontAwesome\_bordered-pulled.scss" />
+    <Content Include="Content\FontAwesome\_core.scss" />
+    <Content Include="Content\FontAwesome\_fixed-width.scss" />
+    <Content Include="Content\FontAwesome\_icons.scss" />
+    <Content Include="Content\FontAwesome\_larger.scss" />
+    <Content Include="Content\FontAwesome\_list.scss" />
+    <Content Include="Content\FontAwesome\_mixins.scss" />
+    <Content Include="Content\FontAwesome\_path.scss" />
+    <Content Include="Content\FontAwesome\_rotated-flipped.scss" />
+    <Content Include="Content\FontAwesome\_stacked.scss" />
+    <Content Include="Content\FontAwesome\_variables.scss" />
+    <Content Include="Content\FontAwesome\font-awesome.css.map">
+      <DependentUpon>font-awesome.css</DependentUpon>
+    </Content>
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
     <None Include="scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="scripts\jquery-2.1.4.js" />
     <Content Include="scripts\jquery-2.1.4.min.js" />
+    <Content Include="scripts\main.js" />
     <Content Include="scripts\npm.js" />
     <Content Include="Static\MakietaRWD\Aktualnosci.html" />
     <Content Include="Static\MakietaRWD\Aktualnosci_szczegoly_info_sukces.html" />
@@ -254,7 +307,6 @@
     <Content Include="Static\MakietaRWD\css\bootstrap-theme.min.css" />
     <Content Include="Static\MakietaRWD\css\bootstrap.css" />
     <Content Include="Static\MakietaRWD\css\bootstrap.min.css" />
-    <Content Include="Content\style.css" />
     <Content Include="Static\MakietaRWD\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Static\MakietaRWD\Home.html" />
     <Content Include="Static\MakietaRWD\js\bootstrap.js" />
@@ -2918,6 +2970,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />

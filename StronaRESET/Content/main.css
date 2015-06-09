@@ -1,0 +1,203 @@
+﻿.mail-icon, .localize-icon {
+  font-size: 2em;
+  color: grey;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px; }
+
+.mail-text, .localize-text {
+  color: grey;
+  font-size: 10px;
+  font-family: Segoe UI;
+  margin-top: 5px;
+  text-align: center; }
+
+header {
+  background-color: #333136;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+  header .searchHeader {
+    padding-right: 10px !important; }
+  header .gradient-search {
+    border-radius: 12px/14px 14px 15px 15px;
+    background-color: #1e2a32;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.1), inset 1px 1px 5px rgba(24, 34, 41, 0.4);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.69) 18%, rgba(51, 51, 51, 0.69));
+    border: 0;
+    color: white; }
+
+.horizontal-separate {
+  background-image: linear-gradient(to top, #883e3e, #b76464);
+  width: 100%;
+  height: 5px; }
+
+.navbar-header {
+  background-color: #333136;
+  border: none; }
+
+.navbar-collapse {
+  background-color: #333136;
+  border: none; }
+
+.parent-element {
+  transform-style: preserve-3d; }
+
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+footer {
+  background-color: #333136;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.footer-menu {
+  text-align: center;
+  list-style-type: none;
+  display: table;
+  padding: 0;
+  font-size: 10px;
+  font-family: Segoe UI;
+  width: 100%;
+  text-transform: uppercase;
+  opacity: 0.5; }
+  .footer-menu li {
+    display: table-cell; }
+    .footer-menu li a {
+      color: grey;
+      text-decoration: none;
+      font-family: Segoe UI; }
+      .footer-menu li a:hover {
+        border-bottom: 2px solid #883e3e; }
+
+.footer-menu-down {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6), inset 1px 1px rgba(255, 255, 255, 0.2);
+  border: solid 1px #8c8c8c;
+  background-image: linear-gradient(to top, #883e3e, #b76464);
+  height: 30px;
+  width: 100%; }
+
+.copyright-text {
+  color: white;
+  font-size: 10px;
+  font-family: Segoe UI;
+  line-height: 30px;
+  font-style: italic; }
+
+.socialmedia {
+  color: white;
+  font-size: 20px;
+  line-height: 30px; }
+  .socialmedia a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px; }
+    .socialmedia a:hover {
+      color: white;
+      font-size: 20px;
+      line-height: 30px; }
+
+.inverse-dropdown {
+  background-color: #333136;
+  border-color: #080808; }
+  .inverse-dropdown .extra-li {
+    width: 10%; }
+  .inverse-dropdown > li > a {
+    color: #999; }
+  .inverse-dropdown > li:hover a {
+    background-color: #333136; }
+
+@media (max-width: 768px) {
+  #main-nav > li {
+    width: 100% !important;
+    text-align: center; }
+    #main-nav > li > a {
+      width: 100% !important;
+      text-align: center; }
+
+  .navbar-collapse {
+    padding: 0; }
+
+  .extra-li {
+    height: 40px; }
+ }
+
+@media (min-width: 769px) {
+  .localize-icon {
+    width: auto;
+    text-align: left; }
+
+  .mail-icon {
+    width: auto;
+    text-align: left; }
+
+  .localize-box {
+    margin-top: 20px; }
+
+  .navbar-nav > li > a.nav-text {
+    font-family: Segoe UI;
+    font-size: 12px;
+    text-transform: uppercase; }
+  .navbar-nav > li > a:hover {
+    border-bottom: 5px solid #b76464;
+    padding-bottom: 10px; }
+
+  .inverse-dropdown > li:hover {
+    background-color: black !important; }
+    .inverse-dropdown > li:hover a {
+      background-color: black; }
+  .inverse-dropdown > li > a {
+    color: #999; }
+
+  .localize-text p {
+    line-height: 2em/3;
+    text-align: left;
+    margin-top: 5px; }
+
+  .mail-text p {
+    line-height: 1.5em;
+    text-align: left;
+    margin-top: 15px; }
+ }
+
+@media (min-width: 769px) {
+  .footer-menu-sm {
+    color: grey;
+    font-family: Segoe UI;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.5; }
+    .footer-menu-sm li {
+      list-style-type: none;
+      text-align: right; }
+      .footer-menu-sm li a {
+        color: grey;
+        text-decoration: none;
+        font-family: Segoe UI; }
+        .footer-menu-sm li a:hover {
+          border-bottom: 2px solid #883e3e; }
+ }
+
+ul.nav.navbar-nav {
+  width: 100%;
+  margin: 0; }
+  ul.nav.navbar-nav > li {
+    width: 16%;
+    text-align: center; }
+
+.nav .open > a {
+  border-color: #b76464 !important; }
+  .nav .open > a:hover {
+    border-color: #b76464 !important; }
+  .nav .open > a:focus {
+    border-color: #b76464 !important; }
+
+.dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #333136; }
+.dropdown-menu > li > a:focus {
+  color: white;
+  background-color: #333136; }
+
+/*# sourceMappingURL=main.css.map */
